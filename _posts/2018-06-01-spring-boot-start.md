@@ -3,7 +3,7 @@ layout: post
 title: "스프링 부트 입문기"
 description: "스프링 프레임워크와 스프링 부트"
 date: 2018-06-01
-tags: [spring boot]
+tags: [spring boot, spring framework]
 categories: [spring boot]
 comments: true
 share: true
@@ -13,6 +13,7 @@ share: true
 - DI
 - AOP
 - IoC
+[spring framework](https://hyunwoo-e.github.io/spring-framework/)
 
 ### XML vs Java Configuration
 스프링은 분명 매우 훌륭한 프레임워크이다. 하지만 방대한 XML 설정은 난이도가 높은 작업이며 컴파일이 안되어 문제 발생시 해결에 어려움이 있었다. 이러한 이유로 XML을 걷어내고 Java Configuration으로 전환하는 움직임이 나타났다.
