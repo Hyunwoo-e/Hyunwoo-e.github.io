@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "스프링 부트 입문기"
-description: "스프링 프레임워크와 스프링 부트"
+description: "스프링 프레임워크 그리고 스프링 부트"
 date: 2018-06-01
 tags: [spring boot, spring framework]
 categories: [spring boot]
@@ -11,6 +11,7 @@ share: true
 
 ### 스프링 프레임워크의 특징
 > [spring framework](https://hyunwoo-e.github.io/spring-framework/)
+
 - DI
 - AOP
 - IoC
