@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "스프링 부트 입문기"
-description: "스프링 프레임워크와 스프링 부트"
+title: "스프링 프레임워크"
+description: "스프링 프레임워크의 핵심 원리와 특징"
 date: 2018-06-01
 tags: [spring framework]
 categories: [spring framework]
