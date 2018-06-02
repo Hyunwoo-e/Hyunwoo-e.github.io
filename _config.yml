@@ -15,7 +15,7 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "hyunwoo_e"
+  id:               "hyunwoo-e"
 
 # URL
 url:                "https://hyunwoo-e.github.io" # the base hostname & protocol for your site
@@ -25,7 +25,7 @@ baseurl:            "" # the subpath of your site, e.g. /blog
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:           Asia/Seoul
-permalink:          /:year-:month-:day/:title/
+permalink:          /:title/
 
 # Pagination
 paginate:           5
@@ -42,6 +42,8 @@ nav:
     url:            "/about"
   - name:           "Archive"
     url:            "/archive"
+  - name:           "Category"
+    url:            "/category"
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"

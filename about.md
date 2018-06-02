@@ -7,7 +7,7 @@ permalink: /about/
 
 저는 프로그래밍과 데이터베이스에 관심이 많습니다.
 
-최근에는 인공지능과 분산시스템 및 컴퓨팅에도 관심을 갖고 있습니다.
+최근에는 인공지능과 분산 시스템에도 관심을 갖고 있습니다.
 
 지식과 경험을 공유하고 함께 고민하는 것을 좋아합니다.
 
@@ -33,4 +33,4 @@ permalink: /about/
 - Spring
 - Database
 - Tesorflow
-- Distributed system and computing
+- Distributed System
