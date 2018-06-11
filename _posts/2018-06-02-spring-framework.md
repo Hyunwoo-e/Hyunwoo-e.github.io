@@ -52,3 +52,23 @@ share: true
   - DI를 통해 트랜잭션 클래스를 주입받음
   - 다형성을 이용해 commit/rollback을 특정 기술에 종속되지 않음
   - 트랜잭션 처리 기술이 바뀌더라도 서비스 코드의 변경이 없음
+
+### Transactional
+- Isolation
+  - Read Uncommitted
+  - Read Committed
+  - Repeatable Read
+  - Serializable
+- Propagation
+  - Required - 트랜잭션이 있으면 사용하고 없으면 생성
+  - Required New - 트랜잭션이 있으면 보류시키고 항상 새로운 트랜잭션을 생성
+  - Mandatory - 트랜잭션이 있으면 사용하고 없으면 예외
+  - Supports - 트랜잭션이 있으면 사용하고 없으면 트랜잭션 없이 진행
+  - Not Supported - 트랜잭션이 있으면 보류시키고 트랜잭션을 사용하지 않음
+  - Never - 트랜잭션을 사용하지 않으며 트랜잭션이 있으면 예외
+  - Nested - 트랜잭션이 있으면 중첩 트랜잭션을 생성
+- Rollback
+  - rollbackFor - 체크예외를 롤백 대상으로 지정
+  - noRollbackFor - 런타임예외를 커밋 대상으로 지정
+- ReadOnly
+- TimeOut
